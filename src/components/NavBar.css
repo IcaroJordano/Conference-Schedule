@@ -1,3 +1,32 @@
 .NavBar{
-    
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100vw;
+    height: 10vh;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavBar img{
+    margin: 0% 0 0 5vw;
+    width: 35vw;
+}
+.NavBar .Ticket, .NavBar .Menu {
+    border-radius: 5px;
+    width: 7vh;
+    height: 5.5vh;
+    background-color: rgb(80, 16, 184);
+    border: none;
+}
+.NavBar .Menu {
+    background-color: white;
+}
+.NavBar .Ticket svg {
+    scale: 2;
+    color: white;
+}
+.NavBar .Menu svg {
+    scale: 3;
 }
