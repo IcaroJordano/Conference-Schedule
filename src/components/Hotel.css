@@ -1,0 +1,10 @@
+.Hotel{
+    padding-top: 10%;
+    /* margin: 5% 0; */
+    /* height: 90vh; */
+}
+.Hotel h3{
+    margin: 0% auto;
+    width: 90%;
+    font-size: 30px;
+}

@@ -1,4 +1,5 @@
 .Informations{
+    padding-top: 5%;
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -16,9 +17,9 @@
     margin:5% 5%;
 }
 .Informations img{
-    width: 80vw;
+    width: 85vw;
     height: 70vw;
-    margin: 0 auto 5%;
+    margin: 10% auto 5%;
     display: flex;
-    border-radius: 35px;
+    border-radius: 15px;
 }

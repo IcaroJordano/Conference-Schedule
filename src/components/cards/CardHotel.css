@@ -1,0 +1,74 @@
+.CardHotel{
+    margin: 10% auto;
+    width: 80%;
+    height: 70vw;
+    /* background-color: black; */
+    /* border: solid 1px black; */
+}
+.CardHotel .img{
+    background-size: contain;
+
+    background-position: center;
+    background-image: url("../../images/hotel.jpg");
+    width: 100%;
+    height: 50vw;
+    border-radius: 10px;
+}
+.CardHotel .img .red{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    background-color: rgba(243, 3, 75, 0.973);
+    width: 36%;
+    padding: 4%;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+    /* right: 1px; */
+    /* margin: 0% 1% 1% 0% ; */
+    /* float: inline-start; */
+}
+.CardHotel .img span{color: #FFAD60 ;}
+
+.CardHotel .img .white{
+    border-radius: 10px;
+    width: 36%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: white;
+    position:relative;
+    top: 47%;
+    left: 57%;
+    padding:2%;
+}
+.CardHotel .estrelas svg{
+    /* scale: 1.3; */
+    color: #FFAD60;
+    margin-right: 5%;
+
+}
+.CardHotel .estrelas{
+    /* padding-left: 1%; */
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.CardHotel .name{
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2%;
+}
+.CardHotel .top{
+    display: flex;
+    /* padding-top: 1%; */
+    align-items: center;
+    justify-content: center;
+}
+.CardHotel .preco{
+    display: flex;
+    margin: 1% auto 0 2%;
+}

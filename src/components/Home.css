@@ -22,9 +22,9 @@
 .Home img{
     margin-bottom: 5%;
     border-radius: 15px;
-    width: 100%;
-    /* display: flex;
-    margin: 0 auto 5%; */
+    width: 90%;
+    display: flex;
+    margin: 0 auto 5%;
     height: 25vh;
 }
 .Home .Card{

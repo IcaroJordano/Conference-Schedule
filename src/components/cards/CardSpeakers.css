@@ -1,0 +1,31 @@
+.CardSpeakers{
+    /* width: 90%; */
+    width: 45%;
+    /* margin: 5% 0 40% 7%; */
+    /* margin-top: 5%; */
+    /* margin-bottom: 5%; */
+    margin: 0% 0 5% 4%;
+    height: 35vh;
+    /* padding-bottom: 1%; */
+    background-color: white;
+    overflow: hidden;
+    border-radius: 15px;
+    font-size: smaller;
+}
+.CardSpeakers img{
+    width: 100%;
+    height: 26vh;
+    background-color: black;
+
+}
+.CardSpeakers .textos{
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.CardSpeakers .textos h3,p{
+    margin-top: 2%;
+}
+.CardSpeakers .textos p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
