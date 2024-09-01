@@ -42,13 +42,14 @@
 .Home .Card p{
     font-size: 20px;
     margin-top: 5%;
-    /* background-color: aquamarine; */
     text-align: center;
+    display:flex ;
+    justify-content: center;
 }
 .Home .Card .date{
     /* background-color: blue; */
     margin: 5% auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }

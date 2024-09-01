@@ -1,10 +1,10 @@
 import "./CarPartnes.css"
 import imagen from "../../../Logo.svg"
 
-function CardPartners() {
+function CardPartners({image}) {
     return(
         <div className="CardPartners">
-            <img src={imagen} alt="" />
+            <img src={image} alt="" />
         </div>
     )
 }

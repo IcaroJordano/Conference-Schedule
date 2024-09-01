@@ -5,7 +5,7 @@
     /* margin-top: 5%; */
     /* margin-bottom: 5%; */
     margin: 0% 0 5% 4%;
-    height: 35vh;
+    height: 32vh;
     /* padding-bottom: 1%; */
     background-color: white;
     overflow: hidden;
@@ -14,17 +14,24 @@
 }
 .CardSpeakers img{
     width: 100%;
-    height: 26vh;
+    height: 23vh;
     background-color: black;
 
 }
 .CardSpeakers .textos{
+    width: 90%;
+    flex-wrap: nowrap;
     padding-left: 5%;
+    white-space: nowrap;
+
     display: flex;
     flex-direction: column;
 }
 .CardSpeakers .textos h3,p{
     margin-top: 2%;
+    display: flex;
+    overflow: hidden;
+    /* background-color: aqua; */
 }
 .CardSpeakers .textos p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

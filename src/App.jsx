@@ -17,10 +17,9 @@ function App() {
       {/* <img className='img' src={Barra1} alt="" /> */}
       <Informations></Informations>
       <Speakers></Speakers>
-      <Partners></Partners>
       <Informations2></Informations2>
+      <Partners></Partners>
       <Hotel></Hotel>
-      {/* <div className="img">.</div> */}
       <Contact></Contact>
       <Footer></Footer>
     </>

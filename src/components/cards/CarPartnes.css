@@ -11,8 +11,8 @@
     margin: 5% 0 0 10%;
 }
 .CardPartners img{
-    width: 100%;
-    height: 10vw;
+    width: 25vw;
+    height: 25vw;
     scale: 0.9;
     display: flex;
     justify-content: center;

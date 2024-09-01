@@ -6,8 +6,7 @@
     /* border: solid 1px black; */
 }
 .CardHotel .img{
-    background-size: contain;
-
+    background-size: cover;
     background-position: center;
     background-image: url("../../images/hotel.jpg");
     width: 100%;

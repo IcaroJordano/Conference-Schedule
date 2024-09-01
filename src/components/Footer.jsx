@@ -9,15 +9,20 @@ import { FaInstagram } from "react-icons/fa";
 function Footer() {
     return(
         <div className="Footer">
-            <div className="text">
-                <img src={imagem} alt="" />
-                <p>Nairobi &copy; 2024</p>
-            </div>
-            <FaLinkedinIn></FaLinkedinIn>
-            <FaXTwitter></FaXTwitter>
-            <FaFacebookF></FaFacebookF>
-            <FaInstagram></FaInstagram>
+            <img src={imagem} alt="" />
 
+                <div className="logos">
+                <FaLinkedinIn></FaLinkedinIn>
+                <FaXTwitter></FaXTwitter>
+                <FaFacebookF></FaFacebookF>
+                <FaInstagram></FaInstagram>
+                 </div>
+                 <div className="text">
+                <a href="">Privacity</a>
+                <a href="">Terms</a>
+                <a href="">Preference Cookies</a>
+            </div>
+            <p>&copy;2024 Nairobi-Events Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, repellat obcaecati sequi accusamus</p>
         </div>
     )
 }

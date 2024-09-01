@@ -1,15 +1,16 @@
 import "../cards/CardSpeakers.css"
 import imagem from "/home/icaro/Área de trabalho/50-Projects/2-Conference-Shedule/src/images/images.jpeg"
+import { faker } from '@faker-js/faker';
 
-function CardSpeakers() {
+function CardSpeakers( {image}) {
     return(
     
         <div className="CardSpeakers">
-            <img src={imagem} alt="" />
+            <img src={image} alt="" />
             <div className="textos">
-                <h3>Brad Smith</h3>
-                <p>President & Vice Chair</p>
-                <p>Microsoft</p>
+                <h3>{faker.person.fullName()}</h3>
+                <p>{faker.person.jobTitle()}</p>
+                <p>{faker.company.name()}</p>
             </div>
         </div>
 
