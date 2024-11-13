@@ -8,16 +8,19 @@ import Speakers from './components/Speakers.jsx';
 import Partners from './components/Partners.jsx';
 import Hotel from './components/Hotel.jsx';
 import Contact from './components/Contact.jsx';
+import Information from "./images/home.jpg"
 import Footer from './components/Footer.jsx';
+import Information2 from "./images/Information3.avif"
+
 function App() {
   return (
     <>
       <NavBar></NavBar>
       <Home></Home>
-      {/* <img className='img' src={Barra1} alt="" /> */}
-      <Informations></Informations>
+      <Informations image={Information}></Informations>
       <Speakers></Speakers>
-      <Informations2></Informations2>
+      <Informations reverse={true} image={Information2}></Informations>
+      {/* <Informations2 ></Informations2> */}
       <Partners></Partners>
       <Hotel></Hotel>
       <Contact></Contact>

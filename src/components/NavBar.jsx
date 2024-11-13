@@ -6,7 +6,7 @@ import { FiMenu } from "react-icons/fi";
 
 function NavBar() {
     return (
-        <div className="fixed top-0 items-center  bg-white w-full flex lg:h-20  h-20 justify-around ">
+        <div className="fixed z-50 top-0 items-center  bg-white w-full flex lg:h-20  h-20 justify-around ">
             <img className=" h-10   lg:h-12" src={logo} alt="" />
             <nav className="space-x-10 hidden lg:flex">
                 <a href="">Speakers</a>

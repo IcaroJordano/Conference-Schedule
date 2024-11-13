@@ -3,10 +3,10 @@ import home from "../images/Infomation.avif"
 
 function Home() {
     return (
-        <div  className="lg:flex pt-20" style={{backgroundColor:'#060e2e'}}>
-            <div className="lg:w-1/2 text-neutral-100 flex flex-col items-end">
+        <div  className="lg:flex mt-20" style={{backgroundColor:'#060e2e'}}>
+            <div className="lg:w-1/2 text-neutral-100 pt-10 flex flex-col items-end">
                 <h1 className="mt-5 font-semibold text-center lg:text-center text-3xl lg:text-4xl mx-auto   lg:w-9/12  w-11/12 mb-5" >Conference on <span>Figma</span>, Creative Design, and Artificial Inteligence!</h1>
-                <div className="w-max lg:w-9/12  mx-auto  text-xl flex flex-col items-center space-y-5 p-10 lg:px-5 lg:py-5 rounded-xl ">
+                <div className="w-max lg:w-9/12   mx-auto  text-xl flex flex-col items-center space-y-5 p-10 lg:px-5 lg:py-5 rounded-xl ">
                     <h2><span>O</span> Where? When? What time?</h2>
                     <p><span>Kyiv, Palace of Culture</span></p>
                     <div className="flex space-x-5">
